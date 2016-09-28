@@ -5,9 +5,52 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var pages = {
+	'pageOne':{
+			title:'About ! sreerag',
+			heading:'myself',
+			date :'123aug 2093',
+			content:'<p>java developer freelancer css ajax</p>',
+	 },
+
+	'pageTwo':{
+title:'About ! sreerag',
+			heading:'myself',
+			date :'123aug 2093',
+			content:'<p>java developer freelancer css ajax</p>',
+	},
+	'pageThree':{
+		title:'About ! sreerag',
+			heading:'myself',
+			date :'123aug 2093',
+			content:'<p>m ymail id is </p>',
+	}	
+};
+
+function createTmp(data){
+	var title = data.title;
+	var date = data.date;
+	var content = data.content;
+	var htmlTmp=`<html>
+	<title>
+	${title}</title>
+	<body> ${date}${content}</body>
+	</html>`;
+	return htmlTmp; 
+}
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+
+
+
+app.get('/:pageName', function (req, res) {
+   var pageName  = req.params.articleName;
+   res.send(createTmp(pages[pageName]));
+});
+
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
