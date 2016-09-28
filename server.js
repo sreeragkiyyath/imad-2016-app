@@ -6,21 +6,21 @@ var app = express();
 app.use(morgan('combined'));
 
 var pages = {
-	'pageOne':{
+	'page-One':{
 			title:'About ! sreerag',
 			heading:'myself',
 			date :'123aug 2093',
 			content:'<p>java developer freelancer css ajax</p>',
 	 },
 
-	'pageTwo':{
-title:'About ! sreerag',
+	'page-Two':{
+			title:'About ! sreerag',
 			heading:'myself',
 			date :'123aug 2093',
 			content:'<p>java developer freelancer css ajax</p>',
 	},
-	'pageThree':{
-		title:'About ! sreerag',
+	'about':{
+			title:'hallooooooooooooo',
 			heading:'myself',
 			date :'123aug 2093',
 			content:'<p>m ymail id is </p>',
@@ -30,11 +30,17 @@ title:'About ! sreerag',
 function createTmp(data){
 	var title = data.title;
 	var date = data.date;
+	var heading = data.heading;
 	var content = data.content;
-	var htmlTmp=`<html>
-	<title>
-	${title}</title>
-	<body> ${date}${content}</body>
+	var htmlTmp=`
+	<html>
+		<title>
+			${title}
+		</title>
+	<body>
+		${date}
+			asda ${content}
+			</body>
 	</html>`;
 	return htmlTmp; 
 }
@@ -47,8 +53,9 @@ app.get('/', function (req, res) {
 
 
 app.get('/:pageName', function (req, res) {
-   var pageName  = req.params.articleName;
-   res.send(createTmp(pages[pageName]));
+   var pageNameIs  = req.params.pageName;
+  // alert(pageNameIs);
+   res.send(createTmp(pages[pageNameIs]));
 });
 
 
