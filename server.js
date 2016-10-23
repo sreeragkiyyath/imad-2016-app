@@ -57,6 +57,18 @@ app.get('/', function (req, res) {
 });
 
 
+var names = [];
+app.get('/submit-name', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+  var name = req.query.name;
+  names.push(name);
+  
+  res.send(JSON.stringify(names));
+  
+});
+
+
+
 
 app.get('/:pageName', function (req, res) {
    var pageNameIs  = req.params.pageName;
@@ -91,16 +103,6 @@ app.get('/submit-name/:name', function (req, res) {
 });
 
 */
-var names = [];
-app.get('/submit-name', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
-  var name = req.query.name;
-  names.push(name);
-  
-  res.send(JSON.stringify(names));
-  
-});
-
 
 
 
