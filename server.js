@@ -45,7 +45,7 @@ function createTmp(data){
 	return htmlTmp; 
 }
 
-
+/*  query based working submit-name?name=sree         */
 var names = [];
 app.get('/submit-name', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
@@ -103,6 +103,8 @@ app.get('/submit-name/:name', function (req, res) {
   res.send(JSON.stringify(names));
   
 });
+
+url /sree/sr mapping
 
 */
 
