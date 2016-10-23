@@ -2,14 +2,13 @@ console.log('Loaded!');
 
 var button = document.getElementById('button-counter');
 button.onclick = function(){
-
 var request = new XMLHttpRequest();		
 			request.onreadystatechange = function () {
 				if(request.readyState === XMLHttpRequest.DONE){
 					if(request.status ===200) {
-						var cnt = request.responseText;
-						var spanq = document.getElementById('spanline');
-						spanq.innerHTML = counter.toString();
+						var counter = request.responseText;
+						var span = document.getElementById('count');
+						span.innerHTML = counter.toString();
 					} 
 				}
 			};
@@ -24,6 +23,12 @@ var name = nameInput.value;
 var submit = document.getElementById('submit_btn');
 submit.onclick=function(){
     
-    
-    
+    var names = ['name1','name2','name3'];
+    var list = '';
+    for(var i = 0; i < names.length; i++) {
+        list+='<li>'+names[i]+'</li>';
+        
+    }
+    var ul =  document.getElementById('nameList');
+    ul.innerHtml = list;    
 };
