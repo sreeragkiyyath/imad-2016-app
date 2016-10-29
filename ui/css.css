@@ -700,7 +700,7 @@ a:hover { color:#3F0;}
 
 
 .cover-banner{   
-    background: url(../work.jpg) no-repeat center top;
+    background: url(../ui/work.jpg) no-repeat center top;
     display: block;
     position:absolute;
     margin: auto;
