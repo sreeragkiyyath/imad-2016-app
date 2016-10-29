@@ -99,6 +99,15 @@ app.get('/ui/stage-bg--1.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'stage-bg--1.jpg'));
 });
 
+
+app.get('/ui/work.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'work.jpg'));
+});
+
+
+
+
+
 /*
 var names = [];
 app.get('/submit-name/:name', function (req, res) {
