@@ -26,7 +26,7 @@ $(document).ready(function() {
     
     
     
-$("#product").click(function() {
+$("#projects").click(function() {
     $('html, body').animate({scrollTop: $(".gallery-set").offset().top }, 1700);
 });
 
@@ -39,22 +39,18 @@ $("#logo-header").click(function() {
 });
 
 $("#contact").click(function() {
-    $('html, body').animate({scrollTop: $(".site-creator-part").offset().top }, 1700);
+    $('html, body').animate({scrollTop: $(".site-creator-part").offset().top }, 2100);
 });
 
 $("#resume").click(function() {
-    $('html, body').animate({scrollTop: $(".resume-part").offset().top }, 1700);
+    $('html, body').animate({scrollTop: $(".resume-part").offset().top }, 2200);
 });
 
 
 $("#about").click(function() {
-    $('html, body').animate({scrollTop: $(".about-part").offset().top }, 1700);
+    $('html, body').animate({scrollTop: $(".about-part").offset().top }, 1900);
 });
 
-
-$("#projects").click(function() {
-    $('html, body').animate({scrollTop: $(".gallery-set").offset().top }, 1700);
-});
 
 
 
