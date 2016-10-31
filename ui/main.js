@@ -40,7 +40,7 @@ submit.onclick=function(){
       var request = new XMLHttpRequest();		
 	  request.onreadystatechange = function () {
 				if(request.readyState === XMLHttpRequest.DONE){
-					if(request.status ===200) {
+					if(request.status ===2) {
 					    var names = request.responseText;
 					    names = JSON.parse(names);
                      
