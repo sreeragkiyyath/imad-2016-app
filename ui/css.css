@@ -728,7 +728,7 @@ a:hover { color:#3F0;}
 .image-banner{
     display: block;
     position:absolute;
-    height: 720px; 
+    height: 420px; 
     width:100%;
     top: 950px;  
     animation-name:slider;
