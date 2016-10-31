@@ -66,18 +66,19 @@ res.send(counter.toString());
 });
 
 
+app.get('/:pageName', function (req, res) {
+   var pageNameIs  = req.params.pageName;
+  // alert(pageNameIs);
+   res.send(createTmp(pages[pageNameIs]));
+});
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 
 
-
-app.get('/:pageName', function (req, res) {
-   var pageNameIs  = req.params.pageName;
-  // alert(pageNameIs);
-   res.send(createTmp(pages[pageNameIs]));
-});
 
 
 app.get('/ui/style.css', function (req, res) {
