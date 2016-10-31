@@ -521,37 +521,6 @@ animation: slide 50s infinite;*/
     left: 200px;
         
     
-    
-}
-
-@keyframes  slide{
-0%{
-	background-image:url(img/img2.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
-	}
-
- 25%{
-	background-image:url(../img/img3.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
-	}
-50%{
-	background-image:url(../imag/img4.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
-	}
-75%{
-	background-image:url(../img/img5.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
-	}
-100%{
-	background-image:url(../img/img13.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
-	}
-
 }
 
 
