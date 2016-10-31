@@ -43,7 +43,7 @@ CODE  SHOULD  BE EXECUTED UNDER READY OR ONLOAD FUNCTUION BCOZ THEN ONLY JAVA SC
 
 
 
-*/
+
 $(document).ready(function() {
 var submit = document.getElementById('submit_btn');
 submit.onClick=function(){
