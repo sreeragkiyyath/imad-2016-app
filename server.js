@@ -115,6 +115,11 @@ app.get('/ui/work.jpg', function (req, res) {
 });
 
 
+app.get('/ui/sreeragk - Copy.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'sreeragk - Copy.jpg'));
+});
+
+
 
 
 
