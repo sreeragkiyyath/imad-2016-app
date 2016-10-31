@@ -45,6 +45,22 @@ function createTmp(data){
 	return htmlTmp; 
 }
 
+
+var names = [];
+app.get('/submit-name', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+  var name = req.query.name;
+  names.push(name);
+  //js object comes here 
+  res.send(JSON.stringify(names)); //convert to string
+  
+});
+
+
+
+
+
+
 /*  query based working submit-name?name=sree         */
 var names = [];
 app.get('/submit-name', function (req, res) {
@@ -66,17 +82,6 @@ res.send(counter.toString());
 });
 
 
-var names = [];
-app.get('/submit-name', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
-  var name = req.query.name;
-  names.push(name);
-  //js object comes here 
-  res.send(JSON.stringify(names)); //convert to string
-  
-});
-
-
 app.get('/:pageName', function (req, res) {
    var pageNameIs  = req.params.pageName;
   // alert(pageNameIs);
@@ -87,7 +92,6 @@ app.get('/:pageName', function (req, res) {
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
 
 
 
