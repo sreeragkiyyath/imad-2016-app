@@ -570,7 +570,7 @@ a:hover { color:#3F0;}
     background:rgba(0,0,0,.61);
     display: block;
     position:absolute;
-    height: 1000px; 
+    height: 1px; 
     width:100%;
     top: 950px;  
     animation-name:slider;
