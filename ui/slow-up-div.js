@@ -25,7 +25,7 @@ $("#contact").click(function() {
     //    $('html, body').animate({scrollTop: $(".gallery-set").offset().top }, 2700);
     //});
 
-
+});
 
 $(document).ready(function() {
     
@@ -58,4 +58,3 @@ $(document).ready(function(){
 
 
 
-});
