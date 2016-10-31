@@ -4,18 +4,6 @@
  * and open the template in the editor.
  */
 
-var submit = document.getElementById('check');
-submit.onclick=function(){
-    
-    alert("hekko");
-    
-    
-    
-};
-
-
-
-
 
 
 
@@ -59,6 +47,18 @@ $("#about").click(function() {
 $("#projects").click(function() {
     $('html, body').animate({scrollTop: $(".contact-part").offset().top }, 1700);
 });
+
+
+
+var submit = document.getElementById('check');
+submit.onclick=function(){
+    
+    alert("hekko");
+    
+    
+    
+};
+
 
 
 
