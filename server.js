@@ -66,6 +66,17 @@ res.send(counter.toString());
 });
 
 
+var names = [];
+app.get('/submit-name', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+  var name = req.query.name;
+  names.push(name);
+  //js object comes here 
+  res.send(JSON.stringify(names)); //convert to string
+  
+});
+
+
 app.get('/:pageName', function (req, res) {
    var pageNameIs  = req.params.pageName;
   // alert(pageNameIs);
@@ -122,21 +133,6 @@ app.get('/ui/sreeragk - Copy.jpg', function (req, res) {
 
 
 
-
-/*
-var names = [];
-app.get('/submit-name/:name', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
-  var name = req.params.name;
-  names.push(name);
-  
-  res.send(JSON.stringify(names));
-  
-});
-
-url /sree/sr mapping
-
-*/
 
 
 
