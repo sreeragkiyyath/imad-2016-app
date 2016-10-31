@@ -1,5 +1,5 @@
 console.log('Loaded!');
-
+/*
 var button = document.getElementById('button-counter');
 button.onclick = function(){
             var request = new XMLHttpRequest();		
@@ -9,6 +9,8 @@ button.onclick = function(){
 				/*		var counter = request.responseText;
 						var span = document.getElementById('count');
 						span.innerHTML = counter.toString();*/
+
+/*
 						
 						var names = ['name1','name2','name3','name4'];
                           var list = '';
@@ -27,7 +29,7 @@ button.onclick = function(){
 			request.open('GET','http://localhost:8080/counter',true);
 			request.send(null);
 };
-
+*/
 
 var submit = document.getElementById('submit_btn');
 submit.onClick=function(){
