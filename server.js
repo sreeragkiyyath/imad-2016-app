@@ -95,6 +95,10 @@ app.get('/ui/main.js', function (req, res) {
 });
 
 
+app.get('/ui/jquery.min.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'jquery.min.js'));
+});
+
 
 app.get('/ui/slow-up-div.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'slow-up-div.js'));
