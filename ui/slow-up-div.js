@@ -48,12 +48,12 @@ $("#resume").click(function() {
 
 
 $("#about").click(function() {
-    $('html, body').animate({scrollTop: $(".contact-part").offset().top }, 1700);
+    $('html, body').animate({scrollTop: $(".about-part").offset().top }, 1700);
 });
 
 
 $("#projects").click(function() {
-    $('html, body').animate({scrollTop: $(".contact-part").offset().top }, 1700);
+    $('html, body').animate({scrollTop: $(".gallery-set").offset().top }, 1700);
 });
 
 
