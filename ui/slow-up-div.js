@@ -58,18 +58,6 @@ $("#projects").click(function() {
 
 
 
-var submit = document.getElementById('check');
-submit.onclick=function(){
-    
-    alert("hekko");
-    
-    
-    
-};
-
-
-
-
 var submitt = document.getElementById('check');
 submitt.onclick=function(){
     alert("helloo");
@@ -95,28 +83,6 @@ var name = nameInput.value;
 		request.open('GET','http://https://cloud.imad.hasura.io:8080/submit-name?name='+name,true);
 		request.send(null);
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     //
     //$(".gallery-set").click(function() {
