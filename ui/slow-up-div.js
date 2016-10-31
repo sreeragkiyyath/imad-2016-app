@@ -5,7 +5,7 @@
  */
 
 var submit = document.getElementById('check');
-submit.onClick=function(){
+submit.onclick=function(){
     
     alert("hekko");
     
