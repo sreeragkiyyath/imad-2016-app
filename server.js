@@ -95,6 +95,11 @@ app.get('/ui/main.js', function (req, res) {
 });
 
 
+
+app.get('/ui/slow-up-div.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'slow-up-div.js'));
+});
+
 app.get('/ui/stage-bg--1.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'stage-bg--1.jpg'));
 });
