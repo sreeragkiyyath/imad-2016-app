@@ -756,3 +756,43 @@ a:hover { color:#3F0;}
 	0% {background: url(../img/resized/img11.jpg) no-repeat center top;  }
 	
 }
+
+
+.contact-part{
+    display: block;
+    position:absolute;
+    margin: auto;
+    width: 94%;    
+    left: 0%;
+    right: 0%;
+    height: 90px;
+    padding: 40px;
+    top:2590px;
+    background: rgba(0,0,0,0.12);
+    text-align: center;
+   font:  17px/34px sans-serif;
+}
+
+
+.site-creator-part{
+   text-align: center; 
+   height: 10px; 
+   width: 94%;
+   position: absolute;
+   display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
