@@ -770,7 +770,11 @@ h1:hover{
 }
 
 
-
+#name{
+    height:100px;
+    width:350px;
+    background:rgba(0,0,0,.12);
+}
 
 
 
