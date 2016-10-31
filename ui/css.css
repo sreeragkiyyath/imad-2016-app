@@ -607,7 +607,7 @@ a:hover { color:#3F0;}
     width: 94%;    
     left: 0%;
     right: 0%;
-    height: 90px;
+    height: 190px;
     padding: 40px;
     top:1190px;
     background: rgba(0,0,0,0.12);
@@ -618,7 +618,7 @@ a:hover { color:#3F0;}
 
 .site-creator-part{
    text-align: center; 
-   height: 10px; 
+   height: 20px; 
    width: 94%;
    position: absolute;
    display: block;
