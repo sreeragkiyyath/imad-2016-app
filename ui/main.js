@@ -29,6 +29,20 @@ button.onclick = function(){
 			request.open('GET','http://localhost:8080/counter',true);
 			request.send(null);
 };
+
+
+
+/*******
+
+CODE  SHOULD  BE EXECUTED UNDER READY OR ONLOAD FUNCTUION BCOZ THEN ONLY JAVA SCRIPT GET ALL RESOURCES
+
+
+***********/
+
+
+
+
+
 */
 $(document).ready(function() {
 var submit = document.getElementById('submit_btn');
