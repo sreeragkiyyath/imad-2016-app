@@ -30,7 +30,7 @@ button.onclick = function(){
 			request.send(null);
 };
 */
-
+$(document).ready(function() {
 var submit = document.getElementById('submit_btn');
 submit.onClick=function(){
     alert("helloo");
@@ -56,3 +56,5 @@ var name = nameInput.value;
 		request.open('GET','http://https://cloud.imad.hasura.io:8080/submit-name?name='+name,true);
 		request.send(null);
 };
+
+});
