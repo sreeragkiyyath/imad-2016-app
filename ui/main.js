@@ -31,16 +31,11 @@ button.onclick = function(){
 
 var submit = document.getElementById('submit_btn');
 submit.onclick=function(){
-    /*******************************************************************************
-  
-    var ul =  document.getElementById('nameList');
-    ul.innerHtml = list;    
-    
-    /******************************************************************************************/
+    alert("helloo");
       var request = new XMLHttpRequest();		
 	  request.onreadystatechange = function () {
 				if(request.readyState === XMLHttpRequest.DONE){
-					if(request.status ===2) {
+					if(request.status ===200) {
 					    var names = request.responseText;
 					    names = JSON.parse(names);
                      
@@ -50,9 +45,7 @@ submit.onclick=function(){
         
                         }
                          var ul =  document.getElementById('nameList');
-                         ul.innerHtml = list; 
-						
-						
+                         ul.innerHTML = list; 
 					} 
 				}
 };
