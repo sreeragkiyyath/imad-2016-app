@@ -39,11 +39,11 @@ $("#logo-header").click(function() {
 });
 
 $("#contact").click(function() {
-    $('html, body').animate({scrollTop: $(".contact-part").offset().top }, 1700);
+    $('html, body').animate({scrollTop: $(".site-creator-part").offset().top }, 1700);
 });
 
 $("#resume").click(function() {
-    $('html, body').animate({scrollTop: $(".contact-part").offset().top }, 1700);
+    $('html, body').animate({scrollTop: $(".resume-part").offset().top }, 1700);
 });
 
 
