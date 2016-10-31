@@ -20,6 +20,11 @@ $("#logo-header").click(function() {
 $("#contact").click(function() {
     $('html, body').animate({scrollTop: $(".contact-part").offset().top }, 1700);
 });
+
+$("#resume").click(function() {
+    $('html, body').animate({scrollTop: $(".contact-part").offset().top }, 1700);
+});
+
     //
     //$(".gallery-set").click(function() {
     //    $('html, body').animate({scrollTop: $(".gallery-set").offset().top }, 2700);
