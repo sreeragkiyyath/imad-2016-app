@@ -9,6 +9,7 @@ $(document).ready(function() {
 $("#product").click(function() {
     $('html, body').animate({scrollTop: $(".gallery-set").offset().top }, 1700);
 });
+
 $("#home").click(function() {
     $('html, body').animate({scrollTop: $(".cover-banner").offset().top }, 1700);
 });
@@ -24,6 +25,19 @@ $("#contact").click(function() {
 $("#resume").click(function() {
     $('html, body').animate({scrollTop: $(".contact-part").offset().top }, 1700);
 });
+
+
+$("#about").click(function() {
+    $('html, body').animate({scrollTop: $(".contact-part").offset().top }, 1700);
+});
+
+
+$("#projects").click(function() {
+    $('html, body').animate({scrollTop: $(".contact-part").offset().top }, 1700);
+});
+
+
+
 
     //
     //$(".gallery-set").click(function() {
