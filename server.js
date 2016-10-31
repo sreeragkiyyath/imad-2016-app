@@ -45,7 +45,7 @@ function createTmp(data){
 	return htmlTmp; 
 }
 
-
+/*
 var names = [];
 app.get('/submit-name', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
@@ -57,14 +57,14 @@ app.get('/submit-name', function (req, res) {
 });
 
 
-
+*/
 
 
 
 /*  query based working submit-name?name=sree         */
 var names = [];
 app.get('/submit-name', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+ // res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
   var name = req.query.name;
   names.push(name);
   
