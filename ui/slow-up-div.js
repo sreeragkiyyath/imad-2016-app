@@ -4,6 +4,30 @@
  * and open the template in the editor.
  */
 
+var submit = document.getElementById('check');
+submit.onClick=function(){
+    
+    alert("hekko");
+    
+    
+    
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 $(document).ready(function() {
 $("#product").click(function() {
