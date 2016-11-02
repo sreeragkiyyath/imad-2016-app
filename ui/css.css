@@ -770,12 +770,14 @@ h1:hover{
     cursor: pointer;   
 }
 
-
 #name{
-    height:100px;
-    width:350px;
-    background:rgba(0,0,0,.12);
+    height:80px;
+    width:80%;
+    background:rgba(20,40,70,.72);
 }
+
+
+
 
 
 
