@@ -137,6 +137,26 @@ app.get('/ui/sreeragk - Copy.jpg', function (req, res) {
 
 
 
+app.get('/ui/a1.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'a1.jpg'));
+});
+
+
+
+
+
+app.get('/ui/a1.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'a1.png'));
+});
+
+
+
+
+
+app.get('/ui/java.gif', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'java.gif'));
+});
+
 
 
 
