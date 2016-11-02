@@ -255,7 +255,7 @@ h2 {
    margin: auto;
    top: 260px; 
    width: 50%;
-   right: -10px;
+   right: 0px;
 }
 
 h2 span { 
@@ -567,12 +567,12 @@ a:hover { color:#3F0;}
 /***********            slider        **************************************/
 
 .image-banner{
-    background:rgba(0,0,0,.61);
+    background:rgba(2485,255,243,.61);
     display: block;
     position:absolute;
-    height: 1px; 
+    height: 610px; 
     width:100%;
-    top: 950px;  
+    top: 886px;  
     animation-name:slider;
     animation-duration:15s;
     animation-timing-function: step-start;
@@ -604,12 +604,13 @@ a:hover { color:#3F0;}
     display: block;
     position:absolute;
     margin: auto;
-    width: 94%;    
+    width: 97%;    
     left: 0%;
     right: 0%;
-    height: 200px;
-    padding: 40px;
-    top:1490px;
+    height: 70px;
+    padding:20px;
+	 padding-top:50px;
+    top:2012px;
     background: rgba(0,0,0,0.12);
     text-align: center;
    font:  30px/34px sans-serif;
@@ -618,15 +619,15 @@ a:hover { color:#3F0;}
 
 .site-creator-part{
    text-align: center; 
-   height: 100px; 
-   width: 94%;
+   height: 200px; 
+   width: 100%;
    position: absolute;
    display: block;
      margin: auto;
       left: 0%;
     right: 0%;
-     top:1790px;
-      background: rgba(0,0,0,.75);
+     top:2150px;
+      background: rgba(140,200,170,.75);
 }
 
 
@@ -649,7 +650,7 @@ a:hover { color:#3F0;}
     height: 450px;
     padding: 40px;
     top:1490px;
-    background: rgba(0,0,0,0.7);
+    background: rgba(20,20,10,.3);
     border: solid 1px rgba(0,0,0,0.31);
     color: white;
     cursor: pointer;
