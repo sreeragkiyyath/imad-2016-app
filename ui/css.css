@@ -548,7 +548,7 @@ a:hover { color:#3F0;}
     
 }
 
-/*...........................      ON HOVER ZOOM        .....................
+/*...........................      ON HOVER ZOOM        .....................*/
 .image-banner img:hover {
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
@@ -562,7 +562,7 @@ a:hover { color:#3F0;}
 	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 
-...*/ 
+
 
 /***********            slider        **************************************/
 
