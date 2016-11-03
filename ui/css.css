@@ -567,39 +567,22 @@ a:hover { color:#3F0;}
 /***********            slider        **************************************/
 
 .image-banner{
+    
     background:rgba(2485,255,243,.61);
     display: block;
     position:absolute;
     height: 610px; 
     width:100%;
     top: 886px;  
-    animation-name:slider;
-    animation-duration:15s;
-    animation-timing-function: step-start;
-    animation-iteration-count:infinite;
-   -web-box-shadow: 0px  .41px 0px 0px rgba(0,0,0,0.2);
+    -web-box-shadow: 0px  .41px 0px 0px rgba(0,0,0,0.2);
    -moz-box-shadow:0px  .41px 0px 0px rgba(0,0,0,0.2);
     box-shadow: 0px  .41px 0px 0px rgba(0,0,0,0.2);
-}/*
-
-@keyframes slider {
-	0% {background: url(../img/resized/img1.jpg) no-repeat center top;  }
-	8% {background: url(../img/resized/img7.jpg) no-repeat center top;  }
-	16% {background: url(../img/resized/img12.jpg) no-repeat center top;  }
-	25% {background: url(../img/resized/img2.jpg) no-repeat center top;  }
-	35% {background: url(../img/resized/img3.jpg) no-repeat center top;  }
-	48% {background: url(../img/resized/img4.jpg) no-repeat center top;  }
-	55% {background: url(../img/resized/img5.jpg) no-repeat center top;  }
-	64% {background: url(../img/resized/img6.jpg) no-repeat center top;  }
-	72% {background: url(../img/resized/img7.jpg) no-repeat center top;  }
-	82% {background: url(../img/resized/img8.jpg) no-repeat center top;  }
-	92% {background: url(../img/resized/img12.jpg) no-repeat center top;  }
-	100% {background: url(../img/resized/img10.jpg) no-repeat center top;  }
-	0% {background: url(../img/resized/img11.jpg) no-repeat center top;  }
-	
 }
 
-*/
+
+
+
+
 .resume-part{
     display: block;
     position:absolute;
