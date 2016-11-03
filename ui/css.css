@@ -605,7 +605,7 @@ a:hover { color:#3F0;}
     width: 97%;    
     left: 0%;
     right: 0%;
-    height: 430px;
+    height: 630px;
     padding:20px;
 	 padding-top:50px;
     top:2012px;
@@ -757,7 +757,7 @@ h1:hover{
 }
 h1{
     text-align:center;
-    font:normal 30px/24px sans-serif;
+    font:normal 35px/24px sans-serif;
     color: white;
     
 }
@@ -783,10 +783,10 @@ h1{
 .p-common{
     text-align:center;
     display:block;
-    padding:30px;
+    padding:20px;
     cursor: pointer;   
     color: white;
-    font:bold 25px/34px sans-serif;
+    font:bold 22px/34px sans-serif;
     
 }
 
