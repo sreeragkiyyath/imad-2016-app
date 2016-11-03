@@ -326,6 +326,7 @@ height: 100px;
 position:fixed;
 z-index:999;
 }
+
 .menu-header{
     height:100px;
     width: 70%;
@@ -333,7 +334,7 @@ z-index:999;
     display: inline-block; 
     position: relative;
     background: rgba(0,0,0,.07);
-    color: #00b3b3;      
+    color: #1aa3ff;      
     float: right;
     text-align: -webkit-center;
     text-align: center;
@@ -367,7 +368,7 @@ animation: slide 50s infinite;*/
     position:absolute;
     display: inline-block;
     background: rgba(0,0,0,.07);
-    color: #00b3b3;  
+    color: #1aa3ff;  
     height: 100px;
     width: 30%;
     text-align: right;
