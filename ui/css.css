@@ -784,6 +784,7 @@ h1{
 }
 
 #name{
+    margin-top:12px;
     height:80px;
     width:80%;
     background:rgba(20,40,70,.72);
