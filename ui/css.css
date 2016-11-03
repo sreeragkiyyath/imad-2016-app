@@ -573,10 +573,7 @@ a:hover { color:#3F0;}
     height: 610px; 
     width:100%;
     top: 886px;  
-    animation-name:slider;
-    animation-duration:15s;
-    animation-timing-function: step-start;
-    animation-iteration-count:infinite;
+
    -web-box-shadow: 0px  .41px 0px 0px rgba(0,0,0,0.2);
    -moz-box-shadow:0px  .41px 0px 0px rgba(0,0,0,0.2);
     box-shadow: 0px  .41px 0px 0px rgba(0,0,0,0.2);
