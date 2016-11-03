@@ -151,6 +151,12 @@ app.get('/ui/a1.png', function (req, res) {
 
 
 
+app.get('/ui/code.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'code.jpg'));
+});
+
+
+
 
 
 app.get('/ui/java.gif', function (req, res) {
