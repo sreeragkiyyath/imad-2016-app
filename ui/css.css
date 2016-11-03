@@ -798,7 +798,7 @@ h1{
 }
 
 .inner{
-    position:absolute;
+    position:relative;
     display:block;
 }
 
