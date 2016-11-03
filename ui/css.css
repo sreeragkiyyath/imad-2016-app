@@ -567,7 +567,7 @@ a:hover { color:#3F0;}
 /***********            slider        **************************************/
 
 .image-banner{
-    
+    text-align:center;
     background:rgba(2485,255,243,.61);
     display: block;
     position:absolute;
