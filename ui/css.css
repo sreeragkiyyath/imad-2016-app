@@ -784,6 +784,7 @@ h1{
     font:normal 20px/34px sans-serif;
 }
 .p-common{
+    text-align:center;
     display:block;
     padding:30;
     font:justify;
