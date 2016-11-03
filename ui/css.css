@@ -783,7 +783,11 @@ h1{
 .image-banner p4:hover{
     font:normal 20px/34px sans-serif;
 }
-
+.p-common{
+    display:block;
+    
+    
+}
 #name{
     height:80px;
     width:80%;
