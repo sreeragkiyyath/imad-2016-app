@@ -30,7 +30,7 @@ $("#projects").click(function() {
     $('html, body').animate({scrollTop: $(".gallery-set").offset().top }, 1700);
 });
 
-$("#home").click(function() {
+$("#about").click(function() {
     $('html, body').animate({scrollTop: $(".cover-banner").offset().top }, 1700);
 });
 
@@ -47,8 +47,8 @@ $("#resume").click(function() {
 });
 
 
-$("#about").click(function() {
-    $('html, body').animate({scrollTop: $(".about-part").offset().top }, 1900);
+$("#skills").click(function() {
+    $('html, body').animate({scrollTop: $(".image-banner").offset().top }, 1900);
 });
 
 
