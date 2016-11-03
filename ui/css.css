@@ -748,6 +748,11 @@ z-index: 3;
     cursor: pointer;
  }
 
+h1:{
+    
+    text-align:center;
+    
+}
 h1:hover{
     text-decoration: underline;
     cursor: pointer;   
