@@ -621,11 +621,11 @@ a:hover { color:#3F0;}
    width: 100%;
    position: absolute;
    display: block;
-     margin: auto;
-      left: 0%;
-    right: 0%;
-     top:2220px;
-    background: #004080;
+   margin: auto;
+   left: 0%;
+   right: 0%;
+   top:2220px;
+   background: #004080;
 }
 
 
@@ -746,7 +746,6 @@ z-index: 3;
     left:1px;
     font-size: 30px;
     font: bold 27px/34px sans-serif;
-    
     cursor: pointer;
 }
 .p-tag-gallery{
@@ -759,7 +758,6 @@ z-index: 3;
     font:normal 17px/34px sans-serif;
     top: 210px;
     bottom: 110px;
-    
     cursor: pointer;
  }
 
@@ -789,37 +787,21 @@ h1{
     text-align:center;
     display:block;
     padding:30;
-
     cursor: pointer;   
     color: white;
-font:normal 25px/34px sans-serif;
+    font:normal 25px/34px sans-serif;
     
 }
+
 #name{
     height:80px;
     width:80%;
     background:rgba(20,40,70,.72);
 }
 
-
-
 .inner{
     position:absolute;
     display:inline-block;
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*******************************************************************************************************/
