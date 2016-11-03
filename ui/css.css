@@ -766,7 +766,23 @@ h1:hover{
     text-decoration: underline;
     cursor: pointer;   
 }
-
+h1{
+    font:normal 30px/24px sans-serif;
+    color: white;
+    
+}
+.image-banner p1:hover{
+    font:normal 20px/34px sans-serif;
+}
+.image-banner p2:hover{
+    font:normal 20px/34px sans-serif;
+}
+.image-banner p3:hover{
+    font:normal 20px/34px sans-serif;
+}
+.image-banner p4:hover{
+    font:normal 20px/34px sans-serif;
+}
 
 #name{
     height:80px;
