@@ -774,25 +774,25 @@ h1{
     
 }
 .image-banner p1:hover{
-    font:normal 20px/34px sans-serif;
+    font:normal 28px/34px sans-serif;
 }
 .image-banner p2:hover{
-    font:normal 20px/34px sans-serif;
+    font:normal 28px/34px sans-serif;
 }
 .image-banner p3:hover{
-    font:normal 20px/34px sans-serif;
+    font:normal 28px/34px sans-serif;
 }
 .image-banner p4:hover{
-    font:normal 20px/34px sans-serif;
+    font:normal 28px/34px sans-serif;
 }
 .p-common{
     text-align:center;
     display:block;
     padding:30;
-    font:justify;
+
     cursor: pointer;   
     color: white;
-
+font:normal 25px/34px sans-serif;
     
 }
 #name{
