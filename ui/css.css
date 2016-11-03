@@ -773,6 +773,13 @@ h1{
 .image-banner p4:hover{
     font:normal 28px/34px sans-serif;
 }
+
+.image-banner p5:hover{
+    font:normal 28px/34px sans-serif;
+}
+.image-banner p6:hover{
+    font:normal 28px/34px sans-serif;
+}
 .p-common{
     text-align:center;
     display:block;
