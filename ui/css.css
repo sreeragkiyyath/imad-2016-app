@@ -605,7 +605,7 @@ a:hover { color:#3F0;}
     width: 97%;    
     left: 0%;
     right: 0%;
-    height: 130px;
+    height: 430px;
     padding:20px;
 	 padding-top:50px;
     top:2012px;
@@ -616,16 +616,6 @@ a:hover { color:#3F0;}
 
 
 .site-creator-part{
-   text-align: center; 
-   height: 200px; 
-   width: 100%;
-   position: absolute;
-   display: block;
-   margin: auto;
-   left: 0%;
-   right: 0%;
-   top:2220px;
-   background: #004080;
 }
 
 
