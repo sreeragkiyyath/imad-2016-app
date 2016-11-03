@@ -11,26 +11,14 @@
 
 
 
-
-
-
-
-
-
 $(document).ready(function() {
-    
-    
-    
-    
-    
-    
-    
+
     
 $("#projects").click(function() {
     $('html, body').animate({scrollTop: $(".gallery-set").offset().top }, 1700);
 });
 
-$("#about").click(function() {
+$("#aboutme").click(function() {
     $('html, body').animate({scrollTop: $(".cover-banner").offset().top }, 1700);
 });
 
@@ -39,7 +27,7 @@ $("#logo-header").click(function() {
 });
 
 $("#contact").click(function() {
-    $('html, body').animate({scrollTop: $(".site-creator-part").offset().top }, 2100);
+    $('html, body').animate({scrollTop: $("..resume-part").offset().top }, 2100);
 });
 
 $("#resume").click(function() {
@@ -48,7 +36,7 @@ $("#resume").click(function() {
 
 
 $("#skills").click(function() {
-    $('html, body').animate({scrollTop: $(".image-banner").offset().top }, 1900);
+    $('html, body').animate({scrollTop: $(".image-banner").offset().top }, 2100);
 });
 
 
