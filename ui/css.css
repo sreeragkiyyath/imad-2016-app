@@ -803,7 +803,11 @@ font:normal 25px/34px sans-serif;
 
 
 
-
+.inner{
+    position:absolute;
+    display:inline-block;
+    
+}
 
 
 
