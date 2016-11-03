@@ -568,7 +568,7 @@ a:hover { color:#3F0;}
 
 .image-banner{
     text-align:center;
-     background-image: url('../ui/code.jpg');
+     background-image: url('../ui/code.jpg') cover no-repeat;
     display: block;
     position:absolute;
     height: 610px; 
