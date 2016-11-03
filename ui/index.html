@@ -1,184 +1,795 @@
-<!doctype html>
-<html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-        <link href="/ui/css.css" rel="stylesheet" />
-        <script type="text/javascript" src="/ui/main.js"></script>
-        <script type="text/javascript" src="/ui/jquery.min.js"></script>
-        <script type="text/javascript" src="/ui/slow-up-div.js"></script>
 
-    </head>
-    <body>
-         <!--    .........................   main div  starting    ..........................    -->
-       <div id="moving-div">
-    <!--    .........................   header  starting    ..........................    -->
-    
-            <div id="header">
-        <!--/*************************** logo starts**********************************/-->
-            
-            <div id ="logo-header">
-                
-             Sreerag k
-        
-        
-        
-        </div>
-        
-    <!--/**********************xxxxxx logo ends  xxxxxxxxxxxx***********************/-->
-                
-        <!--/*************************** menu starts**********************************/-->
-        
-        <div class="menu-header"  >               
-                <ul class="menu">
-                    <li id ="about" >
-                       ABOUT ME 
-                    </li>
-                    <li id ="skills"> 
-                    SKILLS 
-        <!---
-        <ul class="submenu">  
-             <li>java</li>
-            <li>css</li>
-            <li>javasctipt </li>
-            <li>android </li>
-            <li>jquery</li>
-                     
-                            
-                        </ul>
-                        - -->
-                    </li>
-                      
-                    <li id = "projects" >
-                       PROJECTS 
-                    </li>
-                    
-                    <li id = "resume" >
-                       RESUME 
-                    </li>
-                    
-                  
-                    <li id = "contact" >
-                        CONTACT ME
-                    </li>
-                    
-                </ul>
-            </div>        
-        
-        
-        
-       <!-- /****************xxxx**************menu ends**********xxxx**************************/-->
-        
-        </div>
-    <!-- ....................   header   cover    part   div   end        ........................ -->
-    
-        <!-- cover page starts -->
-    
-       <div class="cover-banner">
-                    <h2>
-                        <span class='spacer'>&diamondsuit;    <span></span><span>Hi my name is SREERAG K </span><br><br>&diamondsuit;<SPAN>        </SPAN><span>Computer Science & Engineering Gradute</span>
-                            <br><br> &diamondsuit;  <span></span><SPAN>............................. </span>
+/*.......................icons........................*/
 
-                            </h2>
-                        <div class="icon-title-company">
-                    
-                    
-                         </div>
-                
-                
-               </div>
-     <!-- cover page ends -->
-      <!-- starts -->
-     <div class="gallery-set">
-          <h1>  Projects</h1>
-                                <div class="row width99-96">
-                                   
-                                    <div class="cols size200x200">
-                                        <div class="image-container">
-                                            <label class="banner"> <br><br><br><br>+</label>
-                                            <div class="p-tag-gallery"> IMAGE ENHANCER </div><img src="ui/a1.png" width="100%" height="100%"/></div>
-                                    </div>
-                                   
-                                    <div class="cols size200x200">
-                                        <div class="image-container">
-                                            <label class="banner"><br><br><br><br>+  </label>
-                                            <p class="p-tag-gallery"> INTELLIGENT PERSONAL ASSISTANT</p><img src="ui/a1.jpg" width="100%" height="100%"/></div>
-                                    </div>
-                                    
-                                    <div class="cols size200x200">
-                                        <div class="image-container">
-                                            <label class="banner"><br><br><br><br>+</label>
-                                            <p class="p-tag-gallery"> JAVA COMPILER </p>   <img src="ui/java.gif" width="100%" height="100%"/></div>
-                                    </div>
-                                
-                                </div>
-         
-         
-         
-         
-         
-     </div>
-     
-     
-      <!--  ends -->
-     
-     
-    <!-- ....................       container starts        ........................ -->
+.menu-big { 
+    border-bottom: 17px double black; 
+    border-top: 6px solid black; 
+    content:"";
+    height: 5px; 
+    width:6px;
+}
+.menu-small {
+    border-bottom: 11px double black;
+    border-top: 4px solid black;
+    content: "";
+    height: 3px;
+    width: 5px;
+}
+.loader {
+  border: 3.5px solid black;
+  border-radius: 100%; 
+  width: 70px;
+  height: 70px;
+    border-style:dotted;
+  -webkit-animation: spin 1s infinite;
+  animation: spin 3s linear infinite;
+  cursor: pointer;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg);  }
+  50% { -webkit-transform: rotate(360deg); }
+100% { -webkit-transform: rotate(0deg);  }
+}
+
+@keyframes spin {
+  0% { -webkit-transform: rotate(0deg);  }
+  50% { -webkit-transform: rotate(360deg); }
+100% { -webkit-transform: rotate(0deg);  }
+}
+
+
+/*..............colors..................*/
+
+.violet{
+background: #9d159d;
+color: #f2f2f2;
+}
+.blue1{
+background: #9999ff;
+color: #f2f2f2;
+}
+.blue2{
+background: #0073e6;
+color: #f2f2f2;
+}
+.green1{
+background: #9fdf9f;
+color: #f2f2f2;
+}
+.green2{
+background: #40bf40;
+color: #f2f2f2;
+}
+.yellow{
+background: #e6e600;
+color: #f2f2f2;
+}
+.orange{
+background:  #ffb833;
+color: #f2f2f2;
+}
+.red{
+background:#ff4d4d;
+color: #f2f2f2;
+}
+.cyan{
+background: #00b3b3;
+color: #f2f2f2;
+}
+.pink{
+background: #ff6680;
+color: #f2f2f2;
+}
+.purple{
+background:#660066;
+color: #f2f2f2;
+}
+.gray1{
+background: #bfbfbf;
+color: #f2f2f2;
+}
+.gray2{
+background: #808080;
+color: #f2f2f2;
+}
+.gray3{
+background: #4d4d4d ;
+color: #f2f2f2;
+}
+.black{
+background: #1a1a1a;
+color: #f2f2f2;
+}
+.white{
+background: #f2f2f2;
+color: #1a1a1a;
+}
+
+/*....................buttons......................*/
+.btn{
+padding-left:10px;
+padding-right:10px;
+padding-bottom:6px;
+padding-top:6px;
+display: inline-block;
+cursor:pointer;
+border-radius:4px;
+}
+.btn:hover{
+	opacity:0.7;
+}
+
+
+/******************************     gallery responsive *************************************
+@media screen and (max-width: 420px) {
+.size200x200 {
+	width: 268px;
+	height: 268px;
+}
+}
+
+@media screen and (max-width: 640px) and (min-width: 420px) {
+.size200x200 {
+	width: 173px;
+	height: 173px;
+}
+}
+
+@media screen and (max-width: 1000px) and (min-width: 915px) {
+.size200x200 {
+	width: 223px;
+	height: 223px;
+}
+}
+
+@media screen and (max-width: 1106px) and (min-width: 1000px) {
+.size200x200 {
+	width: 253px;
+	height: 253px;
+}
+}
+
+@media screen and (max-width: 1193px) and (min-width: 1100px) {
+.size200x200 {
+	width: 150px;
+	height: 150px;
         
-         <div class="image-banner">
-              
-                <h1> ABOUT ME </h1><hr>
-                
-           <h4> LANGUAGES               :  CORE JAVA , C, JAVASCRIPT, JQUERY<br>
-            JS FRAMEWORKS           :  NODE JS, ANGULAR JS <br>
-            JAVA FRAMEWORKS         :  STRUTS, HIBERNATE <br>
-            DATABASE                :  MYSQL , SQLITE<br>
-            PACKAGES                :  M.S OFFICE<br>
-            OTHER INTERESTED AREAS  :  MACHINE LEARNIG , BIG DATA, INFORMATION SECURITY 
-            </h4>
-		         
-		         
-        </div>
-    <!-- ....................       container div end        ........................ -->
+}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1115px) {
+.size200x200 {
+	width: 151px;
+	height: 151px;
+}
+
+}
+
+
+@media screen and (max-width: 1800px) and (min-width: 1200px) {
+.size200x200 {
+	width: 171px;
+	height: 171px;
+}
+
+}
+
+@media screen and (max-width: 1800px) and (min-width: 1240px) {
+.size200x200 {
+	width: 181px;
+	height: 181px;
+}
+}
+/****************************************************
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+
+}
+
+/*********************************************************/
+/*....................menu...................*/
+
+.goesup{
+    height:100%;
+    width:100%;
+    border: 6px solid black;
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    color: white; 
+   background: #41C955;
+   opacity: .1;
+}
+.menu{
+        display: inline-block;
+        
+}
+.menu li{
+font: bold 17px/34px sans-serif;
+list-style: none;
+padding:20px;
+cursor:pointer;
+display:inline-block;
+text-align: center;
+ margin-right: 45px;
+
+}
+
+.submenu li{
+font: bold 14px/38px sans-serif;
+list-style: none;
+padding:16px;
+cursor:pointer;
+display:inline-block;
+text-align: justify;
+ margin-right: 20px;
+
+}
+
+
+.menu li:hover{
+color: #41C955;
+}
+/***************div inside image *************/
+.brand-name{
     
-     <div class="resume-part">
-         
+   position: absolute; 
+   margin: auto;
+   top: 350px;
+   bottom: 200px;
+    
+}
+
+h2 span.spacer {
+   padding:0 5px;
+}
+
+h2 { 
+   position: absolute; 
+   margin: auto;
+   top: 260px; 
+   width: 50%;
+   right: 0px;
+}
+
+h2 span { 
+   color: #f2f2f2; 
+   font: bold 20px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+/*   background: rgb(0, 0, 0);  fallback color 
+   background: rgba(0, 0, 0, 0.7);*/
+   padding: 10px; 
+}
+
+/*****************************************/
+.submenu li:hover {
+  background: #1a1a1a;
+  opacity: .5;
+  color: #41C955;
+}
+
+.menu li:hover + .submenu{
+  display:block;
+   -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  visibility: visible;
+ 
+}
+
+
+.submenu li{  
+  display: block; 
+  visibility: visible;
+
+}
+.menu li:hover + ul{
+  display: block;
+  visibility: visible;   
+}
+.submenu li:hover { background: #5980a6; }
+
+
+.menu li:hover .submenu{
+             display:block;
+             position:absolute;
+             padding:0;
+             padding-top:25px;
+  
+}
+.submenu{
+display:none;
+padding:0;
+padding-top:10px;
+
+}
+
+
+
+
+/*............................section.....................*/
+.container{
+/*	width: 85%;
+	margin:auto;*/
+}
+
+#header{
+display: block;
+width:100%; 
+height: 100px;
+position:fixed;
+z-index:999;
+}
+.menu-header{
+    height:100px;
+    width: 70%;
+    cursor: pointer;
+    display: inline-block; 
+    position: relative;
+    background: rgba(0,0,0,.07);
+    color: #00b3b3;      
+    float: right;
+    text-align: -webkit-center;
+    text-align: center;
    
-                             E-mail   : csreeragk@gmail.com <br>
-                             whatsapp : 9745502014<br>
-                             Github   : sreeragkiyyath<hr>
-                                                              
-         Hire me : <div class="loader green1">Resume</div> 
-         
-         
+}
+
+
+#header nav{
+/*text-align:center;*/
+}
+body{
+margin: 0px;
+background: white;
+}
+    /*min-height:700px;
+background-image:url(../images/travel1.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+animation: slide 50s infinite;*/
+
+.animated{
+     	-webkit-animation-name: slide;
+ 	-webkit-animation-duration: 4s;
+ 	-webkit-animation-iteration-count: 10;
+ 	-webkit-animation-timing-function: ease-out;
+ 	-webkit-animation-fill-mode: forwards;
+
+    
+}
+#logo-header{
+    position:absolute;
+    display: inline-block;
+    background: rgba(0,0,0,.07);
+    color: #00b3b3;  
+    height: 100px;
+    width: 30%;
+    text-align: right;
+    font: 28px/10px sans-serif;
+    list-style: none;
+    cursor:pointer;
+    display:inline-block;
+    text-align: center;
+    line-height: 120px;   
+ 
+}
+#logo-header:hover{
+    position:absolute;
+    display: inline-block;
+    color: #41C955;
+    height: 100px;
+    width: 30%;
+    text-align: right;
+    font: 32px/10px sans-serif;
+    list-style: none;
+    padding:0px;
+    float: right;
+    cursor:pointer;
+    display:inline-block;
+    text-align: center;
+    line-height: 120px;        
+    padding-bottom: 2px;
+
+}
+
+.icon-title-company{
+    background-image: url(../ui/sreeragk - Copy.jpg);
+    height: 36%;
+    width: 43%;
+    position:absolute;
+    margin: auto;
+    top:200px;
+    left: 200px;
         
-         
-        
-   
-   </div>
-      <div class="site-creator-part">
-     
-				           
-				      
-				        <h3>YOUR VALUABLE COMMENTS :</h3>
-				        	<input type = "text" id="name" placeholder="enter here........."/> : 
-	      					<div class="btn green2"  id = "check"> comment it</div> 
-	   
-				        	<div class="black"><ul id ="nameList">   </ul><div>
-		       
-				                  </div>
-		         
-        
-       </div>
-    <!--..................  contact part ended      ........... -->
     
+}
+
+
+#arrow-down{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+	position:absolute;
+	margin-left:103px;
+}
+#footer{/*
+background:#1980e6;
+min-height:60px;*/
+
+}
+/*...............sidemenu................*/
+a {
+  text-decoration: none;
+  color:#fff;
+  transition: color 0.3s ease;
+}
+
+a:hover { color:#3F0;}
+
+#menuToggle {
+    display: block;
+    position: absolute;
+    top: 22px;
+    left: 50px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+    width: 80px;
+
+}
+
+#menuToggle input {
+  display: block;
+  width: 33px;
+  height: 28px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+}
+
+
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),  background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),  opacity 0.55s ease;
+}
+
+#menuToggle span:first-child { transform-origin: 0% 0%; }
+
+#menuToggle span:nth-last-child(2) { transform-origin: 0% 100%; }
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+
+#menuToggle input:checked ~ span {
+  opacity: .67;
+  transform: rotate(45deg) translate(-2px, -1px);
+  
+}
+
+/*
+ * But let's hide the middle one.
+ */
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+
+#sidemenu {
+  position: absolute;
+  height:683px;
+  width: 200px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background:#333;
+  OPACITY:.9;
+  list-style-type: none;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#sidemenu li {
+  padding: 30px 40PX;
+  font-size: 22px;
+
+}
+
+#menuToggle input:checked ~ ul {
+  transform: scale(1.0, 1.0);
+  opacity: .2;
+}
+
+
+.cover-banner{   
+    background: url(../ui/work.jpg) no-repeat center top;
+    display: block;
+    position:absolute;
+    margin: auto;
+    height: 800px; 
+    margin-top: 103px;
+    width:100%;
     
+}
+
+/*...........................      ON HOVER ZOOM        .....................*/
+.image-banner img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+ 
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+
+
+/***********            slider        **************************************/
+
+.image-banner{
+    text-align:center;
+     background-image: url('../ui/code.png');
+  -webkit-background-size: cover no-repeat center center fixed ;
+  -moz-background-size: cover no-repeat center center fixed ;
+  -o-background-size: cover no-repeat center center fixed ;
+    display: block;
+    position:absolute;
+    height: 610px; 
+    width:100%;
+    top: 886px;  
+     font:normal 17px/34px sans-serif;
+    -web-box-shadow: 0px  .41px 0px 0px rgba(0,0,0,0.2);
+   -moz-box-shadow:0px  .41px 0px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px  .41px 0px 0px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+.resume-part{
+    display: block;
+    position:absolute;
+    margin: auto;
+    width: 97%;    
+    left: 0%;
+    right: 0%;
+    height: 170px;
+    padding:20px;
+	 padding-top:50px;
+    top:2012px;
+     background: rgba(140,190,170,.75);
+    text-align: center;
+   font:  30px/34px sans-serif;
+}
+
+
+.site-creator-part{
+   text-align: center; 
+   height: 200px; 
+   width: 100%;
+   position: absolute;
+   display: block;
+     margin: auto;
+      left: 0%;
+    right: 0%;
+     top:2218px;
+      background: rgba(140,200,170,.75);
+}
+
+
+/******************************************     gallery      *********************************************/
+
+
+
+
+
+
+.gallery-set{ 
     
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 94%;    
+    left: 0%;
+    right: 0%;
+    height: 450px;
+    padding: 40px;
+    top:1490px;
+    background: #1aa3ff;
+    border: solid 1px rgba(0,0,0,0.31);
+    color: white;
+    cursor: pointer;
+}
+.row {
+   text-align: center;
+   padding: 10px;
+}
+/*.............     .width.     ......................*/
+.width8-33 {
+    width: 8.33%;
+}
+.width16-66 {
+    width: 16.66%;
+}
+.width24-99 {
+    width: 24.99%;
+}
+.width33-33 {
+    width: 33.33%;
+}
+.width41-66 {
+    width: 41.66%;
+}
+.width49-99 {
+    width: 49.99%;
+}
+.width58-31 {
+    width: 58.31%;
+}
+.width66-64 {
+    width: 66.64%;
+}
+.width74-97 {
+    width: 74.97%;
+}
+.width83-3 {
+    width: 83.3%;
+}
+.width91-63 {
+    width: 91.63%;
+}
+.width99-96 {
+    width: 99.96%;
+}
+
+/*************************************************/
+.cols {
+    position: relative;
+    padding: 4px;
+    border: 1px solid #CCC;
+    display: inline-block;
+    margin: 20px;
+}
+.cols:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px #CCC;
+}
+.cols:hover img {
+    background: rgba(0,0,0,.6);
     
+}
+.size200x200 {
+    width: 280px;
+    height: 270px;
+}
+.image-container {
+    background: white;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.image-container:hover .banner {
+    bottom: 0px;
+}
+
+.icon {
+ margin:4px;
+z-index: 3;
+}
+.banner {
+    z-index: 3;
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    opacity: 0.64;
+    background: #00b3b3;
+    bottom: 310px;
+    -webkit-transition: .5s linear;
+    transition: .5s linear;
+    width: 100%;
+    left:1px;
+    font-size: 30px;
+    font: bold 27px/34px sans-serif;
     
+    cursor: pointer;
+}
+.p-tag-gallery{
+    color: rgba(120,10,5,.74);
+    z-index: 999;
+    position: absolute;
+    margin: auto;
+    left: 30px;
+    right:30px;
+    font:normal 17px/34px sans-serif;
+    top: 210px;
+    bottom: 110px;
     
+    cursor: pointer;
+ }
+
+h1{
     
-        </div>
-    <!-- ....................       main div end        ........................ -->
-        
-    </body>
-</html>
+    text-align:center;
+    color:white;
+    
+}
+h1:hover{
+    text-decoration: underline;
+    cursor: pointer;   
+}
+
+#name{
+    height:80px;
+    width:80%;
+    background:rgba(20,40,70,.72);
+}
+h4:hover{
+    
+      font:normal 25px/34px sans-serif;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************************************************************************/
