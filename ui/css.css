@@ -41,6 +41,21 @@
 
 /*..............colors..................*/
 
+
+
+$('.btn').click(function(e) {
+    e.preventDefault();  //stop the browser from following
+    window.location.href = 'ui/work.jpg';
+});
+
+
+
+
+
+
+
+
+
 .violet{
 background: #9d159d;
 color: #f2f2f2;
