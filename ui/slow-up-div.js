@@ -17,7 +17,7 @@ $(document).ready(function() {
     
 $('.btn').click(function(e) {
     e.preventDefault();  //stop the browser from following
-    window.location.href = 'ui/work.jpg';
+    window.location.href = 'ui/ResumeSreeragK.pdf';
 });
 
 
