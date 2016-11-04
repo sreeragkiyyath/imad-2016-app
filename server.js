@@ -136,6 +136,11 @@ app.get('/ui/sreeragk - Copy.jpg', function (req, res) {
 
 
 
+app.get('/ui/ResumeSreeragK.pdf', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'ResumeSreeragK.pdf'));
+});
+
+
 
 app.get('/ui/a1.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'a1.jpg'));
